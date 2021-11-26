@@ -1,6 +1,6 @@
-# Asgardeo UI Branding & Theming
+# [WIP] [Preview Feature] Asgardeo UI Branding & Theming
 
-Instructions and artifacts which'll help achieve organization level UI branding in Asgardeo
+Instructions and artifacts which'll help achieve organization level UI branding in Asgardeo.
 
 ## Prerequisite
 
@@ -75,7 +75,7 @@ Try to login to your organization's My Account or any of your business applicati
 
 ### Sample Preview
 
-I've used the sample payload and updated the preference of my organization (Coala Sports). You can see a [**live preview here**](https://myaccount.asgardeo.io/t/coalasports).
+I've used the sample payload and updated the preference of my organization (Coala Sports). You can see a [**live preview here**](https://myaccount.asgardeo.io/t/coalasports target="_blank).
 
 Following is a screenshot of the Coala Sports organization's login page.
 
@@ -83,4 +83,4 @@ Following is a screenshot of the Coala Sports organization's login page.
 
 ## License
 
-Licenses this source under the Apache License, Version 2.0 ([LICENSE](LICENSE)), You may not use this file except in compliance with the License.
+Licenses this source under the Apache License, Version 2.0 ([LICENSE](./LICENSE)), You may not use this file except in compliance with the License.
