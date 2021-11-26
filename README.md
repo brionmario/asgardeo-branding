@@ -1,6 +1,9 @@
-# [WIP] [Preview Feature] Asgardeo UI Branding & Theming
-
-Instructions and artifacts which'll help achieve organization level UI branding in Asgardeo.
+<p align="center">
+    <h3 align="center">:rotating_light: :construction:&ensp;&ensp;Work In Progress&ensp;&ensp;:construction: :rotating_light:</h3>
+    <div style="text-align:center;margin: 20px"><img src="./docs/banner.png" width="200"></div>
+    <h1 align="center">Asgardeo UI Branding & Theming</h1>
+    <p align="center" style="font-size: 1.2rem;">Instructions and artifacts which'll help achieve organization level UI branding in Asgardeo.</p>
+</p>
 
 ## Prerequisite
 
