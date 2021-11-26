@@ -1,0 +1,107 @@
+:root {
+    --primaryColor: #7ec4d8;
+    --primaryColorDarker: #3897b0;
+    --backgroundColor: #1f2028;
+    --accentColor: #ffd01b;
+    --borderColor: #4b4c53;
+    --borderRadius: 3px;
+}
+
+/*-----------------------------
+       Page Background
+------------------------------*/
+
+/* Default Page */
+.login-portal.layout {
+    background: var(--backgroundColor);
+}
+
+/* Default Page with Blurred Patch */
+.login-portal.layout .page-wrapper {
+    background: var(--backgroundColor);
+}
+
+/* Only add the background image in higher resolution displays. */
+@media only screen and (min-width: 480px) {
+    .login-portal.layout .page-wrapper {
+        background-image: url(https://cdn.statically.io/gh/brionmario/asgardeo-branding/main/images/bg-overlay.png);
+        background-repeat: no-repeat;
+        background-size: 600px;
+        background-position-y: bottom;
+        background-position-x: 5%;
+    }
+}
+
+/*-----------------------------
+            Logo
+------------------------------*/
+
+/* Logo */
+.login-portal.layout .center-segment .portal-logo img {
+    margin-bottom: 1em;
+    max-width: 100px;
+}
+
+/*-----------------------------
+          Buttons
+------------------------------*/
+
+/* Buttons */
+.ui.primary.button {
+    background: var(--primaryColor) !important;
+    color: #ffffff !important;
+}
+
+/*-----------------------------
+           Login Box
+------------------------------*/
+
+/* Login Box */
+.login-portal.layout .center-segment>.ui.container>.ui.segment {
+    border-radius: var(--borderRadius);
+    border-bottom: 3px solid var(--accentColor);
+    padding-bottom: 1.8em;
+    box-shadow: 3px 6px 8px 2px rgb(0 0 0 / 20%);
+}
+
+/* Login Box Links */
+.login-portal.layout .clickable-link {
+    color: var(--primaryColor);
+}
+
+/* Login Box Link Button */
+.login-portal.layout .segment-form .ui.large.fluid.button.link-button {
+    background: transparent;
+    color: var(--backgroundColor);
+}
+
+/*-----------------------------
+           Login Box
+------------------------------*/
+
+/* Footer */
+.login-portal.layout .footer {
+    border-top: 1px solid var(--borderColor);
+}
+
+/*-----------------------------
+        Anchor Tags
+------------------------------*/
+
+/* Anchor Tags */
+a {
+    color: var(--primaryColor);
+}
+
+a:hover {
+    color: var(--primaryColorDarker) !important;
+}
+
+/*-----------------------------
+    Cookie Consent Banner
+------------------------------*/
+
+.ui.segment.cookie-consent-banner.inverted {
+    background: var(--backgroundColor);
+    border: 3px solid var(--accentColor);
+}
