@@ -1,6 +1,8 @@
 <p align="center">
     <h3 align="center">:rotating_light: :construction:&ensp;&ensp;Work In Progress&ensp;&ensp;:construction: :rotating_light:</h3>
-    <img src="./docs/banner.png" alt="Image" width="200" style="display: block; margin: 0 auto;padding-top: 20px; padding-bottom: 20px;" />
+    <p align="center" width="100%"  style="padding-top: 20px; padding-bottom: 20px">
+    <img width="33%" src="./docs/banner.png" alt="Image"/>
+    </p>
     <h1 align="center">Asgardeo UI Branding & Theming</h1>
     <p align="center" style="font-size: 1.2rem;">Instructions and artifacts which'll help achieve organization level UI branding in Asgardeo.</p>
 </p>
