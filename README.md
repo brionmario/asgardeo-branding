@@ -80,7 +80,7 @@ Try to login to your organization's My Account or any of your business applicati
 
 ### Sample Preview
 
-I've used the sample payload and updated the preference of my organization (Koala Sports). You can see a [**live preview here**](https://myaccount.asgardeo.io/t/koalasports target="_blank).
+I've used the sample payload and updated the preference of my organization (Koala Sports). You can see a [**live preview here**](https://myaccount.asgardeo.io/t/koalasports).
 
 Following is a screenshot of the Koala Sports organization's login page.
 
