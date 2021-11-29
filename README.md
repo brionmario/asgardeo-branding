@@ -1,8 +1,6 @@
 <p align="center">
     <h3 align="center">:rotating_light: :construction:&ensp;&ensp;Work In Progress&ensp;&ensp;:construction: :rotating_light:</h3>
-    <p align="center" width="100%"  style="padding-top: 20px; padding-bottom: 20px">
-    <img width="33%" src="./docs/banner.png" alt="Image"/>
-    </p>
+    <img src="./docs/banner.png" alt="Image"/>
     <h1 align="center">Asgardeo UI Branding & Theming</h1>
     <p align="center" style="font-size: 1.2rem;">Instructions and artifacts which'll help achieve organization level UI branding in Asgardeo.</p>
 </p>
@@ -29,32 +27,32 @@ https://api.asgardeo.io/t/<ORGANIZATION>/api/server/v1/branding-preference
 
 #### Sample Payload
 
-Following is a sample payload for an organization called Coala Sports (domain name - `coalasports`).
+Following is a sample payload for an organization called Koala Sports (domain name - `koalasports`).
 
 ```json
 {
     "type": "ORG",
-    "name": "coalasports",
+    "name": "koalasports",
     "locale": "en-US",
     "preference": {
         "organizationDetails": {
-            "siteTitle": "Login - Coala Sports",
-            "copyrightText": "© 2021 Coala Sports Inc.",
-            "supportEmail": "support@coalasports.com"
+            "siteTitle": "Login - Koala Sports",
+            "copyrightText": "© 2021 Koala Sports Inc.",
+            "supportEmail": "support@koalasports.com"
         },
         "images": {
             "logo": {
                 "imgURL": "https://cdn.statically.io/gh/brionmario/asgardeo-branding/main/images/logo.png",
-                "altText": "Coala Sports Logo"
+                "altText": "Koala Sports Logo"
             },
             "favicon": {
                 "imgURL": "https://cdn.statically.io/gh/brionmario/asgardeo-branding/main/images/favicon.ico"
             }
         },
         "urls": {
-            "privacyPolicyURL": "https://coalasports.com/privacy-policy",
-            "termsOfUseURL": "https://coalasports.com/terms-of-service/",
-            "cookiePolicyURL": "https://coalasports.com/privacy-policy/#cookie-policy"
+            "privacyPolicyURL": "https://koalasports.com/privacy-policy",
+            "termsOfUseURL": "https://koalasports.com/terms-of-service/",
+            "cookiePolicyURL": "https://koalasports.com/privacy-policy/#cookie-policy"
         },
         "stylesheets": {
             "accountApp": "https://cdn.statically.io/gh/brionmario/asgardeo-branding/main/stylesheets/login-portal.overrides.css"
@@ -80,11 +78,11 @@ Try to login to your organization's My Account or any of your business applicati
 
 ### Sample Preview
 
-I've used the sample payload and updated the preference of my organization (Coala Sports). You can see a [**live preview here**](https://myaccount.asgardeo.io/t/coalasports target="_blank).
+I've used the sample payload and updated the preference of my organization (Koala Sports). You can see a [**live preview here**](https://myaccount.asgardeo.io/t/koalasports target="_blank).
 
-Following is a screenshot of the Coala Sports organization's login page.
+Following is a screenshot of the Koala Sports organization's login page.
 
-![image info](./docs/coalasports-login-screen.png)
+![image info](./docs/koalasports-login-screen.png)
 
 ## License
 
