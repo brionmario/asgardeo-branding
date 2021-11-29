@@ -38,6 +38,11 @@
     }
 }
 
+/* Error, Success Pages */
+.login-portal.layout .page-wrapper.success-page, .login-portal.layout .page-wrapper.error-page {
+    background: var(--backgroundColor);
+}
+
 /*-----------------------------
             Logo
 ------------------------------*/
