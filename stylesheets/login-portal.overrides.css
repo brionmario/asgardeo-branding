@@ -83,7 +83,7 @@
 /* Login Box Link Button */
 .login-portal.layout .segment-form .ui.large.fluid.button.link-button {
     background: transparent;
-    color: var(--backgroundColor);
+    color: var(--primaryColor);
 }
 
 /*-----------------------------
