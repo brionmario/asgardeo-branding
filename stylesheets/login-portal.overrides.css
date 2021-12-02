@@ -4,7 +4,7 @@
 /*                                              */
 /************************************************/
 
-@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis&display=swap');
 
 :root {
     --primaryColor: #7ec4d8;
@@ -13,7 +13,7 @@
     --accentColor: #ffd01b;
     --borderColor: #4b4c53;
     --borderRadius: 3px;
-    --fontFamily: 'Balsamiq Sans', cursive;
+    --fontFamily: 'Dosis', sans-serif;
 }
 
 /*-----------------------------
