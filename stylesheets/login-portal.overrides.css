@@ -4,6 +4,8 @@
 /*                                              */
 /************************************************/
 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,600;1,700&display=swap');
+
 :root {
     --primaryColor: #7ec4d8;
     --primaryColorDarker: #3897b0;
@@ -11,6 +13,7 @@
     --accentColor: #ffd01b;
     --borderColor: #4b4c53;
     --borderRadius: 3px;
+    --fontFamily: 'Montserrat';
 }
 
 /*-----------------------------
@@ -115,4 +118,128 @@ a:hover {
 .ui.segment.cookie-consent-banner.inverted {
     background: var(--backgroundColor);
     border: 3px solid var(--accentColor);
+}
+
+/*-----------------------------
+            Fonts
+------------------------------*/
+
+/* Body */
+body {
+    font-family: var(--fontFamily);
+}
+
+/* Headings */
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: var(--fontFamily);
+}
+
+.ui.header {
+    font-family: var(--fontFamily);
+}
+
+/* Inputs */
+.ui.form input:not([type]),
+.ui.form input[type="date"],
+.ui.form input[type="datetime-local"],
+.ui.form input[type="email"],
+.ui.form input[type="number"],
+.ui.form input[type="password"],
+.ui.form input[type="search"],
+.ui.form input[type="tel"],
+.ui.form input[type="time"],
+.ui.form input[type="text"],
+.ui.form input[type="file"],
+.ui.form input[type="url"] {
+
+  font-family: var(--fontFamily);
+}
+
+.ui.input > input {
+    font-family: var(--fontFamily);
+}
+
+/* Search */
+.ui.search > .results .result .title {
+    font-family: var(--fontFamily);
+}
+
+.ui.search > .results > .message .header {
+    font-family: var(--fontFamily);
+}
+
+.ui.category.search > .results .category > .name {
+    font-family: var(--fontFamily);
+}
+
+/* Menus */
+.ui.menu {
+    font-family: var(--fontFamily);
+}
+
+/* Message */
+.ui.message .header {
+    font-family: var(--fontFamily);
+}
+
+/* Table */
+.ui.sortable.table thead th:after {
+    font-family: var(--fontFamily);
+}
+
+/* Button */
+.ui.button {
+    font-family: var(--fontFamily);
+}
+
+/* Text Container */
+.ui.text.container {
+    font-family: var(--fontFamily);
+}
+
+/* List */
+.ui.list .list > .item .header,
+.ui.list > .item .header {
+    font-family: var(--fontFamily);
+}
+
+/* Steps */
+.ui.steps .step .title {
+    font-family: var(--fontFamily);
+}
+
+/* Accordion */
+.ui.accordion .title:not(.ui) {
+    font-family: var(--fontFamily);
+}
+
+/* Modal */
+.ui.modal > .header {
+    font-family: var(--fontFamily);
+}
+
+/* Popup */
+.ui.popup > .header {
+    font-family: var(--fontFamily);
+}
+
+/* Cards */
+.ui.cards > .card > .content > .header,
+.ui.card > .content > .header {
+    font-family: var(--fontFamily);
+}
+
+/* Items */
+.ui.items > .item > .content > .header {
+    font-family: var(--fontFamily);
+}
+
+/* Statistics */
+.ui.statistics .statistic > .value,
+.ui.statistic > .value {
+    font-family: var(--fontFamily);
 }
