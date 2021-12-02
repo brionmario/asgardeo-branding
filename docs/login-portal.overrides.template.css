@@ -4,13 +4,15 @@
 /*                                              */
 /************************************************/
 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,600;1,700&display=swap');
+
 :root {
     --primaryColor: #ff7300;
     --primaryColorDarker: #d96200;
     --backgroundColor: radial-gradient(circle at 50% 50%,rgba(243,115,33,.21836485) 0,rgba(245,246,246,.38559174) 35%,#f5f6f6 100%),radial-gradient(circle at 50% 50%,rgba(144,37,142,.12343312) 0,rgba(245,246,246,.38559174) 47%,#f5f6f6 100%);
     --borderColor: #dcdcdc;
     --borderRadius: 12px;
-    --fontFamily: 'cursive';
+    --fontFamily: 'Montserrat';
 }
 
 /*-----------------------------
