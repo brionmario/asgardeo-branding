@@ -4,7 +4,7 @@
 /*                                              */
 /************************************************/
 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
 
 :root {
     --primaryColor: #7ec4d8;
@@ -13,7 +13,7 @@
     --accentColor: #ffd01b;
     --borderColor: #4b4c53;
     --borderRadius: 3px;
-    --fontFamily: 'Montserrat';
+    --fontFamily: 'Balsamiq Sans', cursive;
 }
 
 /*-----------------------------
