@@ -1,5 +1,4 @@
 <p align="center">
-    <h3 align="center">:rotating_light: :construction:&ensp;&ensp;Work In Progress&ensp;&ensp;:construction: :rotating_light:</h3>
     <p align="center" width="100%"  style="padding-top: 20px; padding-bottom: 20px">
         <img width="33%" src="./docs/banner.png" alt="Image"/>
     </p>
@@ -70,7 +69,11 @@ Click [here](docs/API-SCHEMA.md) to read more about the API schema.
 
 #### Sample Stylesheet
 
-The stylesheet used in the payload could be found [here](./stylesheets/login-portal.overrides.css).
+You can inspect (using developer tools) and override the default styles by using a new CSS stylesheet.
+
+As a reference, we have created a [template](./docs/login-portal.overrides.template.css) with default values that Asgardeo uses.
+
+Also the stylesheet used in the payload could be found [here](./stylesheets/login-portal.overrides.css).
 
 You can modify the CSS according to your liking that matches the styling guidelines of your organization and **host** it on a static server or somewhere like [Firebase](https://firebase.google.com/docs/storage) and obtain a **static URL** to be used in the preferences.
 
