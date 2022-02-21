@@ -105,3 +105,9 @@ a:hover, a:focus, a:active {
 .login-portal.layout .footer {
     border-top: 1px solid var(--borderColor);
 }
+
+/* Powered by Logo */
+.login-portal.layout .footer .powered-by-logo img {
+    /* Replace with light logo variation */
+    content: url(https://cdn.statically.io/gh/brionmario/asgardeo-branding/guardio-insurance/images/asgardeo-logo-light.svg);
+}
