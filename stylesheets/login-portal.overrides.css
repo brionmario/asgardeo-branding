@@ -6,6 +6,7 @@
 
 :root {
     --backgroundColor: #1e202d;
+    --borderColor: #4b4c53;
 }
 /*-----------------------------
             Global
@@ -70,4 +71,13 @@ a {
 a:hover, a:focus, a:active {
     color: var(--primaryColor);
     filter: brightness(0.85);
+}
+
+/*-----------------------------
+           Footer
+------------------------------*/
+
+/* Footer */
+.login-portal.layout .footer {
+    border-top: 1px solid var(--borderColor);
 }
