@@ -8,6 +8,7 @@
     --backgroundColor: #1e202d;
     --borderColor: #4b4c53;
 }
+
 /*-----------------------------
             Global
 ------------------------------*/
@@ -19,55 +20,78 @@ i.icon.primary {
 .text-typography.primary {
     color: var(--primaryColor);
 }
+
 /*-----------------------------
         Page Background
 
  Use a simple background color
   if primary color is defined
 ------------------------------*/
+
 /* Default Page */
 .login-portal.layout {
     background: var(--backgroundColor);
 }
+
 /* Default Page with Blurred Patch */
 .login-portal.layout .page-wrapper {
     background: var(--backgroundColor);
 }
+
 /* Error, Success Pages */
 .login-portal.layout .page-wrapper.success-page, .login-portal.layout .page-wrapper.error-page {
     background: var(--backgroundColor);
 }
+
+/*-----------------------------
+            Logo
+------------------------------*/
+
+/* Logo */
+.login-portal.layout .center-segment .portal-logo img {
+    width: 220px;
+}
+
 /*-----------------------------
         Buttons
 ------------------------------*/
+
 /* Buttons */
 .ui.primary.button {
     background: var(--primaryColor);
 }
+
 .ui.primary.button:hover, .ui.primary.button:focus, .ui.primary.button:active {
     background: var(--primaryColor);
     filter: brightness(0.85);
 }
+
 /*-----------------------------
         Login Box
 ------------------------------*/
+
 /* Login Box Links */
 .login-portal.layout .clickable-link {
     color: var(--primaryColor);
 }
+
 /*-----------------------------
      Login Screen Footer
 ------------------------------*/
+
 .login-portal.layout .footer .ui.text.menu .item:not(.no-hover):hover {
     color: var(--primaryColor);
 }
+
 /*-----------------------------
         Anchor Tags
 ------------------------------*/
+
 /* Anchor Tags */
 a {
     color: var(--primaryColor);
 }
+
 a:hover, a:focus, a:active {
     color: var(--primaryColor);
     filter: brightness(0.85);
