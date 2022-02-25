@@ -7,10 +7,10 @@
 :root {
     --primaryColor: #e73940;
     --primaryColorDarker: #c62a30;
-    --backgroundColor: #f8f8f8;
+    --background: radial-gradient(circle at 75% 45%,rgba(243,115,33,.3) 0,rgba(245,246,246,.01) 17%),radial-gradient(circle at 47% 65%,rgba(243,115,33,.1) 0,rgba(245,246,246,.1) 15%),radial-gradient(circle at 65% 60%,rgba(144,37,142,.15) 5%,#fff 18%);
     --accentColor: #ffd01b;
     --borderColor: #4b4c53;
-    --borderRadius: 3px;
+    --borderRadius: 10px;
     --fontFamily: 'Montserrat';
 }
 
@@ -20,17 +20,17 @@
 
 /* Default Page */
 .login-portal.layout {
-    background: var(--backgroundColor);
+    background: var(--background);
 }
 
 /* Default Page with Blurred Patch */
 .login-portal.layout .page-wrapper {
-    background: var(--backgroundColor);
+    background: var(--background);
 }
 
 /* Error, Success Pages */
 .login-portal.layout .page-wrapper.success-page, .login-portal.layout .page-wrapper.error-page {
-    background: var(--backgroundColor);
+    background: var(--background);
 }
 
 /*-----------------------------
@@ -60,9 +60,7 @@
 /* Login Box */
 .login-portal.layout .center-segment>.ui.container>.ui.segment {
     border-radius: var(--borderRadius);
-    border-bottom: 3px solid var(--accentColor);
     padding-bottom: 1.8em;
-    box-shadow: 3px 6px 8px 2px rgb(0 0 0 / 20%);
 }
 
 /* Login Box Links */
