@@ -9,7 +9,7 @@
     --primaryColorDarker: #c62a30;
     --background: radial-gradient(circle at 75% 45%,rgba(243,115,33,.3) 0,rgba(245,246,246,.01) 17%),radial-gradient(circle at 47% 65%,rgba(243,115,33,.1) 0,rgba(245,246,246,.1) 15%),radial-gradient(circle at 65% 60%,rgba(144,37,142,.15) 5%,#fff 18%);
     --accentColor: #ffd01b;
-    --borderColor: #4b4c53;
+    --borderColor: #bababa;
     --borderRadius: 10px;
     --fontFamily: 'Montserrat';
 }
@@ -60,6 +60,7 @@
 /* Login Box */
 .login-portal.layout .center-segment>.ui.container>.ui.segment {
     border-radius: var(--borderRadius);
+    border: 1px solid var(--borderColor);
     padding-bottom: 1.8em;
 }
 
