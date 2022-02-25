@@ -1,19 +1,17 @@
 /************************************************/
 /*                                              */
-/*          Koala Sports Theme Overrides        */
+/*           Bifrost Theme Overrides            */
 /*                                              */
 /************************************************/
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
-
 :root {
-    --primaryColor: #7ec4d8;
-    --primaryColorDarker: #3897b0;
-    --backgroundColor: #1f2028;
+    --primaryColor: #e73940;
+    --primaryColorDarker: #c62a30;
+    --backgroundColor: #f8f8f8;
     --accentColor: #ffd01b;
     --borderColor: #4b4c53;
     --borderRadius: 3px;
-    --fontFamily: 'Roboto Slab', serif;
+    --fontFamily: 'Montserrat';
 }
 
 /*-----------------------------
@@ -28,17 +26,6 @@
 /* Default Page with Blurred Patch */
 .login-portal.layout .page-wrapper {
     background: var(--backgroundColor);
-}
-
-/* Only add the background image in higher resolution displays. */
-@media only screen and (min-width: 480px) {
-    .login-portal.layout .page-wrapper {
-        background-image: url(https://cdn.statically.io/gh/brionmario/asgardeo-branding/main/images/bg-overlay.png);
-        background-repeat: no-repeat;
-        background-size: 600px;
-        background-position-y: bottom;
-        background-position-x: 5%;
-    }
 }
 
 /* Error, Success Pages */
