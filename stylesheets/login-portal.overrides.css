@@ -1,32 +1,21 @@
 /************************************************/
 /*                                              */
-/*      Guardio Insurance Theme Overrides       */
+/*          Happy Pets Theme Overrides          */
 /*                                              */
 /************************************************/
 
 :root {
-    --primaryColor: #
-    --backgroundColor: #1e202d;
+    --primaryColor: #a660e4;
+    --primaryColorDarker: #8b4ec2;
+    --backgroundColor: radial-gradient(at 80% 80%, #fafafa, var(--primaryColor));
+    --accentColor: #b455cb;
     --borderColor: #4b4c53;
+    --borderRadius: 4px;
+    --fontFamily: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
 }
 
 /*-----------------------------
-            Global
-------------------------------*/
-/* Primary Icons */
-i.icon.primary {
-    color: var(--primaryColor);
-}
-/* Primary Text */
-.text-typography.primary {
-    color: var(--primaryColor);
-}
-
-/*-----------------------------
-        Page Background
-
- Use a simple background color
-  if primary color is defined
+       Page Background
 ------------------------------*/
 
 /* Default Page */
@@ -37,6 +26,17 @@ i.icon.primary {
 /* Default Page with Blurred Patch */
 .login-portal.layout .page-wrapper {
     background: var(--backgroundColor);
+}
+
+/* Only add the background image in higher resolution displays. */
+@media only screen and (min-width: 480px) {
+    .login-portal.layout .page-wrapper {
+        background-attachment: fixed;
+        background-clip: content-box;
+        background-repeat: no-repeat;
+        background-position: left;
+        background-image: url(https://cdn.statically.io/gh/brionmario/asgardeo-branding/happy-pets/images/bg-overlay.png), radial-gradient(at 80% 80%, #fafafa, var(--primary));
+    }
 }
 
 /* Error, Success Pages */
@@ -50,38 +50,50 @@ i.icon.primary {
 
 /* Logo */
 .login-portal.layout .center-segment .portal-logo img {
-    width: 240px;
+    margin-bottom: 1em;
+    max-width: 100px;
 }
 
 /*-----------------------------
-        Buttons
+          Buttons
 ------------------------------*/
 
 /* Buttons */
 .ui.primary.button {
-    background: var(--primaryColor);
-}
-
-.ui.primary.button:hover, .ui.primary.button:focus, .ui.primary.button:active {
-    background: var(--primaryColor);
-    filter: brightness(0.85);
+    background: var(--primaryColor) !important;
+    color: #ffffff !important;
 }
 
 /*-----------------------------
-        Login Box
+           Login Box
 ------------------------------*/
+
+/* Login Box */
+.login-portal.layout .center-segment>.ui.container>.ui.segment {
+    border-radius: var(--borderRadius);
+    border-bottom: 3px solid var(--accentColor);
+    padding-bottom: 1.8em;
+    box-shadow: 3px 6px 8px 2px rgb(0 0 0 / 20%);
+}
 
 /* Login Box Links */
 .login-portal.layout .clickable-link {
     color: var(--primaryColor);
 }
 
+/* Login Box Link Button */
+.login-portal.layout .segment-form .ui.large.fluid.button.link-button {
+    background: transparent;
+    color: var(--primaryColor);
+}
+
 /*-----------------------------
-     Login Screen Footer
+           Login Box
 ------------------------------*/
 
-.login-portal.layout .footer .ui.text.menu .item:not(.no-hover):hover {
-    color: var(--primaryColor);
+/* Footer */
+.login-portal.layout .footer {
+    border-top: 1px solid var(--borderColor);
 }
 
 /*-----------------------------
@@ -93,22 +105,139 @@ a {
     color: var(--primaryColor);
 }
 
-a:hover, a:focus, a:active {
-    color: var(--primaryColor);
-    filter: brightness(0.85);
+a:hover {
+    color: var(--primaryColorDarker) !important;
 }
 
 /*-----------------------------
-           Footer
+    Cookie Consent Banner
 ------------------------------*/
 
-/* Footer */
-.login-portal.layout .footer {
-    border-top: 1px solid var(--borderColor);
+.ui.segment.cookie-consent-banner.inverted {
+    background: var(--backgroundColor);
+    border: 3px solid var(--accentColor);
 }
 
-/* Powered by Logo */
-.login-portal.layout .footer .powered-by-logo img {
-    /* Replace with light logo variation */
-    content: url(https://cdn.statically.io/gh/brionmario/asgardeo-branding/guardio-insurance/images/asgardeo-logo-light.svg);
+/*-----------------------------
+            Fonts
+------------------------------*/
+
+/* Body */
+body {
+    font-family: var(--fontFamily);
+}
+
+/* Headings */
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: var(--fontFamily);
+}
+
+.ui.header {
+    font-family: var(--fontFamily);
+}
+
+/* Inputs */
+.ui.form input:not([type]),
+.ui.form input[type="date"],
+.ui.form input[type="datetime-local"],
+.ui.form input[type="email"],
+.ui.form input[type="number"],
+.ui.form input[type="password"],
+.ui.form input[type="search"],
+.ui.form input[type="tel"],
+.ui.form input[type="time"],
+.ui.form input[type="text"],
+.ui.form input[type="file"],
+.ui.form input[type="url"] {
+
+  font-family: var(--fontFamily);
+}
+
+.ui.input > input {
+    font-family: var(--fontFamily);
+}
+
+/* Search */
+.ui.search > .results .result .title {
+    font-family: var(--fontFamily);
+}
+
+.ui.search > .results > .message .header {
+    font-family: var(--fontFamily);
+}
+
+.ui.category.search > .results .category > .name {
+    font-family: var(--fontFamily);
+}
+
+/* Menus */
+.ui.menu {
+    font-family: var(--fontFamily);
+}
+
+/* Message */
+.ui.message .header {
+    font-family: var(--fontFamily);
+}
+
+/* Table */
+.ui.sortable.table thead th:after {
+    font-family: var(--fontFamily);
+}
+
+/* Button */
+.ui.button {
+    font-family: var(--fontFamily);
+}
+
+/* Text Container */
+.ui.text.container {
+    font-family: var(--fontFamily);
+}
+
+/* List */
+.ui.list .list > .item .header,
+.ui.list > .item .header {
+    font-family: var(--fontFamily);
+}
+
+/* Steps */
+.ui.steps .step .title {
+    font-family: var(--fontFamily);
+}
+
+/* Accordion */
+.ui.accordion .title:not(.ui) {
+    font-family: var(--fontFamily);
+}
+
+/* Modal */
+.ui.modal > .header {
+    font-family: var(--fontFamily);
+}
+
+/* Popup */
+.ui.popup > .header {
+    font-family: var(--fontFamily);
+}
+
+/* Cards */
+.ui.cards > .card > .content > .header,
+.ui.card > .content > .header {
+    font-family: var(--fontFamily);
+}
+
+/* Items */
+.ui.items > .item > .content > .header {
+    font-family: var(--fontFamily);
+}
+
+/* Statistics */
+.ui.statistics .statistic > .value,
+.ui.statistic > .value {
+    font-family: var(--fontFamily);
 }
