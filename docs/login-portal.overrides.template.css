@@ -1,18 +1,17 @@
 /************************************************/
 /*                                              */
-/*        Asgardeo Theme Default Values         */
+/*          Happy Pets Theme Overrides          */
 /*                                              */
 /************************************************/
 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,600;1,700&display=swap');
-
 :root {
-    --primaryColor: #ff7300;
-    --primaryColorDarker: #d96200;
-    --backgroundColor: radial-gradient(circle at 50% 50%,rgba(243,115,33,.21836485) 0,rgba(245,246,246,.38559174) 35%,#f5f6f6 100%),radial-gradient(circle at 50% 50%,rgba(144,37,142,.12343312) 0,rgba(245,246,246,.38559174) 47%,#f5f6f6 100%);
-    --borderColor: #dcdcdc;
-    --borderRadius: 12px;
-    --fontFamily: 'Montserrat';
+    --primaryColor: #a660e4;
+    --primaryColorDarker: #8b4ec2;
+    --backgroundColor: radial-gradient(at 80% 80%, #fafafa, var(--primaryColor));
+    --accentColor: #b455cb;
+    --borderColor: #4b4c53;
+    --borderRadius: 4px;
+    --fontFamily: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
 }
 
 /*-----------------------------
@@ -29,6 +28,17 @@
     background: var(--backgroundColor);
 }
 
+/* Only add the background image in higher resolution displays. */
+@media only screen and (min-width: 480px) {
+    .login-portal.layout .page-wrapper {
+        background-attachment: fixed;
+        background-clip: content-box;
+        background-repeat: no-repeat;
+        background-position: left;
+        background-image: url(https://cdn.statically.io/gh/brionmario/asgardeo-branding/happy-pets/images/bg-overlay.png), radial-gradient(at 80% 80%, #fafafa, var(--primary));
+    }
+}
+
 /* Error, Success Pages */
 .login-portal.layout .page-wrapper.success-page, .login-portal.layout .page-wrapper.error-page {
     background: var(--backgroundColor);
@@ -41,6 +51,7 @@
 /* Logo */
 .login-portal.layout .center-segment .portal-logo img {
     margin-bottom: 1em;
+    max-width: 100px;
 }
 
 /*-----------------------------
@@ -60,7 +71,9 @@
 /* Login Box */
 .login-portal.layout .center-segment>.ui.container>.ui.segment {
     border-radius: var(--borderRadius);
+    border-bottom: 3px solid var(--accentColor);
     padding-bottom: 1.8em;
+    box-shadow: 3px 6px 8px 2px rgb(0 0 0 / 20%);
 }
 
 /* Login Box Links */
@@ -101,8 +114,8 @@ a:hover {
 ------------------------------*/
 
 .ui.segment.cookie-consent-banner.inverted {
-    background: #212a32;
-    border: none;
+    background: var(--backgroundColor);
+    border: 3px solid var(--accentColor);
 }
 
 /*-----------------------------
