@@ -104,6 +104,7 @@
 .login-portal.layout .footer .ui.text.menu .item.no-hover,
 .login-portal.layout .footer .ui.text.menu .item.no-hover:hover {
     color: #ffffff;
+    filter: brightness(1);
 }
 
 /*-----------------------------
