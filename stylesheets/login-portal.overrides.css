@@ -9,7 +9,7 @@
     --primaryColorDarker: #8b4ec2;
     --backgroundColor: radial-gradient(at 80% 80%, #fafafa, var(--primaryColor));
     --accentColor: #b455cb;
-    --borderColor: #4b4c53;
+    --borderColor: #dedede;
     --borderRadius: 4px;
     --fontFamily: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
 }
@@ -35,7 +35,7 @@
         background-clip: content-box;
         background-repeat: no-repeat;
         background-position: left;
-        background-image: url(https://cdn.statically.io/gh/brionmario/asgardeo-branding/happy-pets/images/bg-overlay.png), radial-gradient(at 80% 80%, #fafafa, var(--primary));
+        background-image: url(https://cdn.statically.io/gh/brionmario/asgardeo-branding/happy-pets/images/bg-overlay.png), radial-gradient(at 80% 80%, #fafafa, var(--backgroundColor));
     }
 }
 
@@ -71,7 +71,6 @@
 /* Login Box */
 .login-portal.layout .center-segment>.ui.container>.ui.segment {
     border-radius: var(--borderRadius);
-    border-bottom: 3px solid var(--accentColor);
     padding-bottom: 1.8em;
     box-shadow: 3px 6px 8px 2px rgb(0 0 0 / 20%);
 }
@@ -94,6 +93,7 @@
 /* Footer */
 .login-portal.layout .footer {
     border-top: 1px solid var(--borderColor);
+    color: #2f1448;
 }
 
 /*-----------------------------
