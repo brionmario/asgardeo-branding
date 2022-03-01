@@ -87,7 +87,7 @@
 }
 
 /*-----------------------------
-           Login Box
+        Login Screen Footer
 ------------------------------*/
 
 /* Footer */
@@ -95,13 +95,9 @@
     border-top: 1px solid var(--borderColor);
 }
 
-/* Footer Copyright */
-.login-portal.layout .footer .ui.text.menu .item.no-hover {
-    color: #ffffff;
-}
-
-.login-portal.layout .footer .ui.text.menu .item.no-hover:hover {
-    color: #ffffff !important;
+/* Links */
+.login-portal.layout .footer .ui.text.menu .item:not(.no-hover):hover {
+    color: var(--primaryColor);
 }
 
 /*-----------------------------
@@ -113,8 +109,9 @@ a {
     color: var(--primaryColor);
 }
 
-a:hover {
-    color: var(--primaryColorDarker) !important;
+a:hover, a:focus, a:active {
+    color: var(--primaryColor);
+    filter: brightness(0.85);
 }
 
 /*-----------------------------
