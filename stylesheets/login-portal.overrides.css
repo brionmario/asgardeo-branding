@@ -71,7 +71,7 @@
 .login-portal.layout .center-segment>.ui.container>.ui.segment {
     border-radius: var(--borderRadius);
     padding-bottom: 1.8em;
-    box-shadow: 3px 6px 8px 2px rgb(0 0 0 / 20%);
+    box-shadow: 3px 3px 7px rgb(0 0 0 / 5%);
 }
 
 /* Login Box Links */
