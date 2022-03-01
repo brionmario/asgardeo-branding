@@ -35,7 +35,7 @@
         background-clip: content-box;
         background-repeat: no-repeat;
         background-position: left;
-        background-image: url(https://cdn.statically.io/gh/brionmario/asgardeo-branding/happy-pets/images/bg-overlay.png), radial-gradient(at 80% 80%, #fafafa, var(--backgroundColor));
+        background-image: url(https://cdn.statically.io/gh/brionmario/asgardeo-branding/happy-pets/images/bg-overlay.png), radial-gradient(at 80% 80%, #fafafa, var(--primaryColor));
     }
 }
 
