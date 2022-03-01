@@ -101,7 +101,7 @@
 }
 
 .login-portal.layout .footer .ui.text.menu .item.no-hover:hover {
-    color: #ffffff;
+    color: #ffffff !important;
 }
 
 /*-----------------------------
