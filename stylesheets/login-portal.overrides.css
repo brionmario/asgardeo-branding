@@ -93,6 +93,10 @@
 /* Footer */
 .login-portal.layout .footer {
     border-top: 1px solid var(--borderColor);
+}
+
+/* Footer Copyright */
+.login-portal.layout .footer .ui.text.menu .item.no-hover {
     color: #2f1448;
 }
 
