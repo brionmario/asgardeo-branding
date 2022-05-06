@@ -10,7 +10,7 @@
 
 /* Default Page */
 .login-portal.layout {
-    background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/3e521d6d-a53b-4c3f-a85f-dd77c06f7ac7/e0690319-a480-4f0f-bd70-45238423e815/LK-en-20220425-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+    background-image: url(https://cdn.statically.io/gh/brionmario/asgardeo-branding/netflix/images/bg-overlay.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
 }
