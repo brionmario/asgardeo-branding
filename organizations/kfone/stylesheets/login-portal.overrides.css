@@ -1,0 +1,21 @@
+/************************************************/
+/*                                              */
+/*            Kfone Theme Overrides             */
+/*                                              */
+/************************************************/
+
+/*-----------------------------
+       Page Background
+------------------------------*/
+
+/* Default Page */
+.login-portal.layout {
+    background-image: url(https://cdn.statically.io/gh/brionmario/asgardeo-branding/netflix/images/bg-overlay.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Default Page with Blurred Patch */
+.login-portal.layout .page-wrapper {
+    background: rgb(0 0 0 / 77%);
+}
