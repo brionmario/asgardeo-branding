@@ -5,17 +5,24 @@
 /************************************************/
 
 /*-----------------------------
-       Page Background
+           Login Box
 ------------------------------*/
 
-/* Default Page */
-.login-portal.layout {
-    background-image: url(https://cdn.statically.io/gh/brionmario/asgardeo-branding/netflix/images/bg-overlay.jpeg);
-    background-repeat: no-repeat;
-    background-size: cover;
+.login-portal.layout .page-wrapper.layout-file .right-side {
+    border-left: 1px solid #dddbd3;
 }
 
-/* Default Page with Blurred Patch */
-.login-portal.layout .page-wrapper {
-    background: rgb(0 0 0 / 77%);
+.login-portal.layout .center-segment>.ui.container>.ui.segment .ui.header:first-child {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 2.5em;
+}
+
+.login-portal.layout .center-segment>.ui.container>.ui.segment {
+    padding-top: 0;
+}
+
+.login-portal.layout .center-segment .product-logo img {
+    max-height: 45px;
+
 }
