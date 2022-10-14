@@ -22,3 +22,11 @@
         background-position-y: bottom;
     }
 }
+
+/*-----------------------------
+          Login Box
+------------------------------*/
+
+.login-portal.layout .center-segment>.ui.container>.ui.segment {
+    box-shadow: rgb(0 0 0 / 2%) 2.76726px 2.76726px 2.21381px 0px, rgb(0 0 0 / 3%) 6.6501px 6.6501px 5.32008px 0px, rgb(0 0 0 / 4%) 12.5216px 12.5216px 10.0172px 0px, rgb(0 0 0 / 4%) 22.3363px 22.3363px 17.869px 0px, rgb(0 0 0 / 5%) 41.7776px 41.7776px 33.4221px 0px, rgb(0 0 0 / 7%) 100px 100px 80px 0px;
+}
