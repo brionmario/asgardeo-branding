@@ -1,0 +1,21 @@
+/************************************************/
+/*                                              */
+/*         Neo Digital Theme Overrides          */
+/*                                              */
+/************************************************/
+
+/*-----------------------------
+           Background
+------------------------------*/
+
+.login-portal.layout {
+    background: linear-gradient(180deg, #90311d, #7b3726);
+}
+
+.login-portal.layout .page-wrapper {
+    background-image: url(https://cdn.statically.io/gh/brionmario/asgardeo-branding/f8696a7…/organizations/neodigital/images/login-background-overlay.png);
+    background-repeat: no-repeat;
+    background-size: initial;
+    background-position-x: left;
+    background-position-y: bottom;
+}
