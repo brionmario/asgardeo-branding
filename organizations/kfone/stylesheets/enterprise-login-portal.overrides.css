@@ -24,7 +24,10 @@
     padding-top: 0;
 }
 
+.login-portal.layout .center-segment .product-logo {
+    padding-bottom: 20px;
+}
+
 .login-portal.layout .center-segment .product-logo img {
     max-height: 45px;
-    padding-bottom: 20px;
 }
