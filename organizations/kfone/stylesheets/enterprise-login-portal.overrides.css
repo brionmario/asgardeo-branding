@@ -1,0 +1,30 @@
+/************************************************/
+/*                                              */
+/*            Kfone Theme Overrides             */
+/*                                              */
+/************************************************/
+
+/*-----------------------------
+           Login Box
+------------------------------*/
+
+.login-portal.layout .page-wrapper.layout-file .right-side {
+    border-left: 1px solid #dddbd3;
+}
+
+.login-portal.layout .center-segment>.ui.container>.ui.segment .ui.header:first-child {
+    padding-top: 35px;
+    border-top: 1px solid #e2e2e2;
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 2.5em;
+}
+
+.login-portal.layout .center-segment>.ui.container>.ui.segment {
+    padding-top: 0;
+}
+
+.login-portal.layout .center-segment .product-logo img {
+    max-height: 45px;
+    padding-bottom: 20px;
+}
