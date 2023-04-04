@@ -8,14 +8,19 @@
        Page Background
 ------------------------------*/
 
-/* Default Page */
-.login-portal.layout {
+.login-portal.layout .page-wrapper {
     background-image: url(https://cdn.statically.io/gh/brionmario/asgardeo-branding/netflix/images/bg-overlay.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
+    background: rgb(0 0 0 / 77%);
 }
 
-/* Default Page with Blurred Patch */
-.login-portal.layout .page-wrapper {
-    background: rgb(0 0 0 / 77%);
+.login-portal.layout .center-segment .product-logo img {
+    top: 30px;
+    position: absolute;
+    left: 30px;
+}
+
+.login-portal.layout .page-wrapper.layout-file .center-segment>.ui.container>.ui.segment .ui.header:first-child {
+    text-align: left;
 }
