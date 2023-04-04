@@ -8,10 +8,13 @@
        Page Background
 ------------------------------*/
 
-.login-portal.layout .page-wrapper {
+.login-portal.layout {
     background-image: url(https://cdn.statically.io/gh/brionmario/asgardeo-branding/netflix/images/bg-overlay.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.login-portal.layout .page-wrapper {
     background: rgb(0 0 0 / 77%);
 }
 
