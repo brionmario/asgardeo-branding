@@ -9,15 +9,15 @@
 ------------------------------*/
 
 .login-portal.layout {
-    background: linear-gradient(180deg, #90311d, #7b3726);
+    background: linear-gradient(180deg, #1f2028, #15161a);
 }
 
 /* Only add the background image in higher resolution displays. */
 @media only screen and (min-width: 480px) {
     .login-portal.layout .page-wrapper {
-        background: url(https://cdn.statically.io/gh/brionmario/asgardeo-branding/f8696a7889d6b886b2ef6b2492f2230d5a544ecf/organizations/neodigital/images/login-background-overlay.png);
+        background: url(https://cdn.statically.io/gh/brionmario/asgardeo-branding/restructure/organizations/coalasports/images/login-background-overlay.png);
         background-repeat: no-repeat;
-        background-size: initial;
+        background-size: 60%;
         background-position-x: left;
         background-position-y: bottom;
     }
