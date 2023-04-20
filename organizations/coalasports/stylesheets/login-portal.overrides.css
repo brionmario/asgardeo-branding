@@ -1,0 +1,32 @@
+/************************************************/
+/*                                              */
+/*         Neo Digital Theme Overrides          */
+/*                                              */
+/************************************************/
+
+/*-----------------------------
+           Background
+------------------------------*/
+
+.login-portal.layout {
+    background: linear-gradient(180deg, #90311d, #7b3726);
+}
+
+/* Only add the background image in higher resolution displays. */
+@media only screen and (min-width: 480px) {
+    .login-portal.layout .page-wrapper {
+        background: url(https://cdn.statically.io/gh/brionmario/asgardeo-branding/f8696a7889d6b886b2ef6b2492f2230d5a544ecf/organizations/neodigital/images/login-background-overlay.png);
+        background-repeat: no-repeat;
+        background-size: initial;
+        background-position-x: left;
+        background-position-y: bottom;
+    }
+}
+
+/*-----------------------------
+          Login Box
+------------------------------*/
+
+.login-portal.layout .center-segment>.ui.container>.ui.segment {
+    box-shadow: rgb(0 0 0 / 2%) 2.76726px 2.76726px 2.21381px 0px, rgb(0 0 0 / 3%) 6.6501px 6.6501px 5.32008px 0px, rgb(0 0 0 / 4%) 12.5216px 12.5216px 10.0172px 0px, rgb(0 0 0 / 4%) 22.3363px 22.3363px 17.869px 0px, rgb(0 0 0 / 5%) 41.7776px 41.7776px 33.4221px 0px, rgb(0 0 0 / 7%) 100px 100px 80px 0px;
+}
