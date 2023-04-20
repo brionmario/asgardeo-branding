@@ -7,15 +7,16 @@
 /*-----------------------------
        Page Background
 ------------------------------*/
-
-/* Default Page */
 .login-portal.layout {
-    background-image: url(https://cdn.statically.io/gh/brionmario/asgardeo-branding/netflix/images/bg-overlay.jpeg);
-    background-repeat: no-repeat;
-    background-size: cover;
+       background: url(https://assets.nflxext.com/ffe/siteui/vlv3/2e884ce2-da1c-4501-ab9a-10c534d30975/1cd87d5b-4fab-458d-9cf8-e8905ef37ae8/LK-en-20230327-popsignuptwoweeks-perspective_alpha_website_small.jpg);
 }
 
-/* Default Page with Blurred Patch */
 .login-portal.layout .page-wrapper {
-    background: rgb(0 0 0 / 77%);
+       background: rgb(0,0,0,.75);
+}
+
+.login-portal.layout .center-segment .product-logo {
+    position: absolute;
+    top: 30px;
+    left: 30px;
 }
