@@ -9,7 +9,7 @@
 ------------------------------*/
 
 .login-portal.layout {
-    background: linear-gradient(180deg, #1f2028, #15161a);
+    background: linear-gradient(180deg, #1f2028, #18181d);
 }
 
 /* Only add the background image in higher resolution displays. */
@@ -47,4 +47,16 @@
     position: absolute;
     top: -55px;
     right: 165px;
+}
+
+/*-----------------------------
+        Primary Button
+------------------------------*/
+
+.ui.primary.button {
+    background: linear-gradient(91deg, var(--asg-primary-color), #70a7cf);
+}
+
+.ui.primary.button:hover, .ui.primary.button:focus, .ui.primary.button:active {
+    background: linear-gradient(91deg, var(--asg-primary-color), #70a7cf);
 }
