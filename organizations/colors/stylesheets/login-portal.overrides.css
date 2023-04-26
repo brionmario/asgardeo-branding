@@ -23,3 +23,7 @@
   background: transparent;
   color: #007bbc;
 }
+
+.login-portal.layout .page-wrapper.layout-file .center-segment .footer:after {
+  content: 'Custom Text';
+}
