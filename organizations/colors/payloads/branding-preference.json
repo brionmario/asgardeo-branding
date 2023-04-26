@@ -1,0 +1,239 @@
+{
+  "type": "ORG",
+  "name": "netflixdemo",
+  "locale": "en-US",
+  "preference": {
+      "configs": {
+          "isBrandingEnabled": true,
+          "removeAsgardeoBranding": false
+      },
+      "organizationDetails": {
+          "copyrightText": "© Netflix Inc 2022. All Rights Reserved.",
+          "siteTitle": "Neflix",
+          "supportEmail": "support@netflix.com"
+      },
+      "theme": {
+          "activeTheme": "DARK",
+          "LIGHT": {
+              "buttons": {
+                  "externalConnection": {
+                      "base": {
+                          "background": {
+                              "backgroundColor": "#0000000a"
+                          },
+                          "border": {
+                              "borderRadius": "4px"
+                          },
+                          "font": {
+                              "color": "#000000de"
+                          }
+                      }
+                  },
+                  "primary": {
+                      "base": {
+                          "border": {
+                              "borderRadius": "4px"
+                          },
+                          "font": {
+                              "color": "#ffffffe6"
+                          }
+                      }
+                  },
+                  "secondary": {
+                      "base": {
+                          "border": {
+                              "borderRadius": "4px"
+                          },
+                          "font": {
+                              "color": "#000000de"
+                          }
+                      }
+                  }
+              },
+              "colors": {
+                  "primary": "#FF7300",
+                  "secondary": "#E0E1E2"
+              },
+              "footer": {
+                  "border": {
+                      "borderColor": "#22242626"
+                  },
+                  "font": {
+                      "color": ""
+                  }
+              },
+              "images": {
+                  "favicon": {},
+                  "logo": {}
+              },
+              "inputs": {
+                  "base": {
+                      "background": {
+                          "backgroundColor": "#FFFFFF"
+                      },
+                      "border": {
+                          "borderColor": "#22242626",
+                          "borderRadius": "4px"
+                      },
+                      "font": {
+                          "color": ""
+                      },
+                      "labels": {
+                          "font": {
+                              "color": ""
+                          }
+                      }
+                  }
+              },
+              "loginBox": {
+                  "background": {
+                      "backgroundColor": "#FFFFFF"
+                  },
+                  "border": {
+                      "borderColor": "transparent",
+                      "borderRadius": "12px",
+                      "borderWidth": "1px"
+                  },
+                  "font": {
+                      "color": ""
+                  }
+              },
+              "page": {
+                  "background": {
+                      "backgroundColor": "#F5F6F6"
+                  },
+                  "font": {
+                      "color": "#000000de"
+                  }
+              },
+              "typography": {
+                  "font": {
+                      "fontFamily": "Montserrat"
+                  },
+                  "heading": {
+                      "font": {
+                          "color": ""
+                      }
+                  }
+              }
+          },
+          "DARK": {
+              "buttons": {
+                  "externalConnection": {
+                      "base": {
+                          "background": {
+                              "backgroundColor": "#24292e"
+                          },
+                          "border": {
+                              "borderRadius": "4px"
+                          },
+                          "font": {
+                              "color": "#ffffff"
+                          }
+                      }
+                  },
+                  "primary": {
+                      "base": {
+                          "border": {
+                              "borderRadius": "4px"
+                          },
+                          "font": {
+                              "color": "#ffffff"
+                          }
+                      }
+                  },
+                  "secondary": {
+                      "base": {
+                          "border": {
+                              "borderRadius": "4px"
+                          },
+                          "font": {
+                              "color": "#ffffff"
+                          }
+                      }
+                  }
+              },
+              "colors": {
+                  "primary": "#e50914",
+                  "secondary": "#676767"
+              },
+              "footer": {
+                  "border": {
+                      "borderColor": "#737373"
+                  },
+                  "font": {
+                      "color": "#757575"
+                  }
+              },
+              "images": {
+                  "favicon": {
+                      "imgURL": "https://cdn.statically.io/gh/brionmario/asgardeo-branding/7603ffde324c884a56db7cfdbe0cf8418f53cfb4/images/favicon.ico"
+                  },
+                  "logo": {
+                      "imgURL": "https://cdn.statically.io/gh/brionmario/asgardeo-branding/ce2f2cf8fae4b4573559afecd546f09309ac016a/images/logo-demo.svg",
+                      "altText": "Netflix Logo"
+                  }
+              },
+              "inputs": {
+                  "base": {
+                      "background": {
+                          "backgroundColor": "#333333"
+                      },
+                      "border": {
+                          "borderColor": "#333333",
+                          "borderRadius": "4px"
+                      },
+                      "font": {
+                          "color": "#ffffff"
+                      },
+                      "labels": {
+                          "font": {
+                              "color": "#b3b3b3"
+                          }
+                      }
+                  }
+              },
+              "loginBox": {
+                  "background": {
+                      "backgroundColor": "#000000bf"
+                  },
+                  "border": {
+                      "borderColor": "#333333",
+                      "borderRadius": "4px",
+                      "borderWidth": "0"
+                  },
+                  "font": {
+                      "color": ""
+                  }
+              },
+              "page": {
+                  "background": {
+                      "backgroundColor": "#000000"
+                  },
+                  "font": {
+                      "color": "#ffffff"
+                  }
+              },
+              "typography": {
+                  "font": {
+                      "fontFamily": "Montserrat",
+                      "importURL": ""
+                  },
+                  "heading": {
+                      "font": {
+                          "color": "#ffffff"
+                      }
+                  }
+              }
+          }
+      },
+      "stylesheets": {
+          "accountApp": "https://cdn.statically.io/gh/brionmario/asgardeo-branding/2cba711cb696d44cd1f45f27f2f000454f691af9/stylesheets/login-portal.overrides.css"
+      },
+      "urls": {
+          "cookiePolicyURL": "",
+          "privacyPolicyURL": "https://help.netflix.com/legal/privacy",
+          "termsOfUseURL": "https://help.netflix.com/legal/termsofuse"
+      }
+  }
+}
