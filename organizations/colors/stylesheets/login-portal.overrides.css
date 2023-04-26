@@ -10,16 +10,13 @@
 
 .login-portal.layout .footer .ui.text.menu .item#terms-of-service {
   font-size: 0;
-  pointer-events: none;
   visibility: hidden;
-  text-decoration: none;
-  color: inherit;
 }
   
 .login-portal.layout .footer .ui.text.menu .item#terms-of-service:after {
-  content: 'Replacement text';
+  content: 'Legal Notice';
   visibility: visible;
-  font-size: 16px;
+  font-size: 14px;
 }
 
 .login-portal.layout .center-segment>.ui.container>.ui.segment .segment-form .ui.secondary.button#registerLink {
