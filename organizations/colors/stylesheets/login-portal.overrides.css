@@ -26,4 +26,10 @@
 
 .login-portal.layout .page-wrapper.layout-file .center-segment .footer:after {
   content: 'All trademarks, except where noted, are property of Color Inc.';
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
 }
