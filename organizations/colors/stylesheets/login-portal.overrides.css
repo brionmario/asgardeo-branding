@@ -22,6 +22,16 @@
 .login-portal.layout .center-segment>.ui.container>.ui.segment .segment-form .ui.secondary.button#registerLink {
        background: transparent;
        color: #007bbc;
+       padding-left: 0;
+       padding-right: 0;
+       text-align: left;
+       visibility: hidden;
+}
+
+.login-portal.layout .center-segment>.ui.container>.ui.segment .segment-form .ui.secondary.button#registerLink:after {
+       content: 'Register Now';
+       visibility: visible;
+       font-size: 16px;
 }
 
 .login-portal.layout .page-wrapper.layout-file .center-segment .footer:after {
