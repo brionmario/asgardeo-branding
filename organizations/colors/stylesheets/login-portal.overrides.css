@@ -9,37 +9,44 @@
 ------------------------------*/
 
 .login-portal.layout .footer .ui.text.menu .item#terms-of-service {
-  font-size: 0;
-  visibility: hidden;
+       font-size: 0;
+       visibility: hidden;
 }
-  
+
 .login-portal.layout .footer .ui.text.menu .item#terms-of-service:after {
-  content: 'Legal Notice';
-  visibility: visible;
-  font-size: 14px;
+       content: 'Legal Notice';
+       visibility: visible;
+       font-size: 14px;
 }
 
 .login-portal.layout .center-segment>.ui.container>.ui.segment .segment-form .ui.secondary.button#registerLink {
-  background: transparent;
-  color: #007bbc;
+       background: transparent;
+       color: #007bbc;
 }
 
 .login-portal.layout .page-wrapper.layout-file .center-segment .footer:after {
-  content: 'All trademarks, except where noted, are property of Color Inc.';
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  align-content: center;
-  justify-content: center;
-  align-items: center;
+       content: 'All trademarks, except where noted, are property of Color Inc.';
+       display: flex;
+       flex-direction: row;
+       flex-wrap: nowrap;
+       align-content: center;
+       justify-content: center;
+       align-items: center;
 }
 
 .login-portal.layout .page-wrapper.layout-file .center-segment>.ui.container>.ui.segment .ui.header:first-child {
-  font-size: 0;
-  visibility: hidden;
+       font-size: 0;
+       visibility: hidden;
 }
 
 .login-portal.layout .page-wrapper.layout-file .center-segment>.ui.container>.ui.segment .ui.header:first-child:after {
-  content: 'LOGIN';
-  font-size: 22px;
+       content: 'LOGIN';
+       font-size: 22px;
+       visibility: visible;
+       display: flex;
+       flex-direction: column;
+       align-content: flex-start;
+       flex-wrap: nowrap;
+       justify-content: center;
+       align-items: flex-start;
 }
