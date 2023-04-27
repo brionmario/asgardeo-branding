@@ -1,6 +1,6 @@
 /************************************************/
 /*                                              */
-/*            Netflix Theme Overrides           */
+/*         Colors Inc Theme Overrides           */
 /*                                              */
 /************************************************/
 
@@ -18,6 +18,20 @@
        visibility: visible;
        font-size: 14px;
 }
+
+.login-portal.layout .page-wrapper.layout-file .center-segment .footer:after {
+       content: 'All trademarks, except where noted, are property of Color Inc.';
+       display: flex;
+       flex-direction: row;
+       flex-wrap: nowrap;
+       align-content: center;
+       justify-content: center;
+       align-items: center;
+}
+
+/*-----------------------------
+          Login Box
+------------------------------*/
 
 .login-portal.layout .center-segment>.ui.container>.ui.segment .segment-form .ui.secondary.button#registerLink {
        background: transparent;
@@ -40,16 +54,6 @@
        font-weight: 400;
 }
 
-.login-portal.layout .page-wrapper.layout-file .center-segment .footer:after {
-       content: 'All trademarks, except where noted, are property of Color Inc.';
-       display: flex;
-       flex-direction: row;
-       flex-wrap: nowrap;
-       align-content: center;
-       justify-content: center;
-       align-items: center;
-}
-
 .login-portal.layout .page-wrapper.layout-file .center-segment>.ui.container>.ui.segment .ui.header:first-child {
        font-size: 0;
        visibility: hidden;
@@ -66,5 +70,4 @@
        justify-content: center;
        align-items: flex-start;
        padding-bottom: 20px;
-
 }
