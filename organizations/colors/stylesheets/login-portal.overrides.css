@@ -33,3 +33,13 @@
   justify-content: center;
   align-items: center;
 }
+
+.login-portal.layout .page-wrapper.layout-file .center-segment>.ui.container>.ui.segment .ui.header:first-child {
+  font-size: 0;
+  visibility: hidden;
+}
+
+.login-portal.layout .page-wrapper.layout-file .center-segment>.ui.container>.ui.segment .ui.header:first-child:after {
+  content: 'LOGIN';
+  font-size: 22px;
+}
