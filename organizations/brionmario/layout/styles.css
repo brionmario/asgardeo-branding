@@ -1,0 +1,268 @@
+/*=================================
+    Branding Variable Overriding
+===================================*/
+
+:root {
+    /* Branding Variables */
+    --asg-primary-color: rgba(45, 177, 70, 0.69);
+    --asg-secondary-color: rgb(243, 102, 131);
+    --asg-primary-background-color: #ffffff;
+    --asg-primary-text-color: rgba(0, 0, 0, .87);
+    --asg-footer-text-color: inherit;
+    --asg-footer-border-color: #22242626;
+    --asg-primary-font-family: Montserrat;
+    --asg-heading-text-color: rgba(0, 0, 0, .87);
+    --asg-primary-button-base-text-color: #ffffffe6;
+    --asg-primary-button-base-border-radius: 4px;
+    --asg-secondary-button-base-text-color: #000000de;
+    --asg-secondary-button-base-border-radius: 4px;
+    --asg-external-login-button-base-background-color: #0000000a;
+    --asg-external-login-button-base-text-color: #000000de;
+    --asg-external-login-button-base-border-radius: 4px;
+    --asg-login-box-background-color: #ffffff;
+    --asg-login-box-border-color: rgba(34, 36, 38, .15);
+    --asg-login-box-border-width: 1px;
+    --asg-login-box-border-style: solid;
+    --asg-login-box-border-radius: 12px;
+    --asg-login-box-text-color: inherit;
+    --asg-input-field-base-text-color: rgba(0, 0, 0, .87);
+    --asg-input-field-base-background-color: #ffffff;
+    --asg-input-field-base-label-text-color: rgba(0, 0, 0, .87);
+    --asg-input-field-base-border-color: rgba(34, 36, 38, .15);
+    --asg-input-field-base-border-radius: 4px;
+
+    /* New Variables */
+    --fp-header-background-color: #f2f2f2;
+    --fp-divider-color: rgba(34, 36, 38, .15);
+    --fp-warning-background-color: "#fff6e7";
+    --fp-copy-btn-background-color: "#e0e1e2";
+    --fp-copy-btn-text-color: "rgba(0,0,0,.6)";
+}
+
+/*============================
+    Custom Layout Styles
+==============================*/
+
+/*-----------------------------
+            Header
+------------------------------*/
+
+.fp-header {
+    min-height: 70px;
+    width: 100%;
+    background-color: var(--fp-header-background-color);
+    box-shadow: 0 0 1px 0 rgba(0, 0, 0, .12), 0 1px 1px 0 rgba(0, 0, 0, .24);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 15px;
+    margin-bottom: 30px;
+}
+
+.fp-header>.fp-header-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fp-header>.fp-header-logo>.fp-header-logo-text {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-left: 8px;
+}
+
+.fp-header>.fp-header-logo .theme-icon.product-logo.portal-logo img {
+    height: 30px;
+}
+
+.fp-header>.fp-header-theme {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fp-header>.fp-header-theme>.fp-checkbox {
+    visibility: hidden;
+}
+
+.fp-header>.fp-header-theme>.fp-theme-checkbox-label {
+    width: 70px;
+    height: 30px;
+    border-radius: 20px;
+    position: relative;
+    background-color: #33334b;
+    font-size: 1.5rem;
+}
+
+.fp-header>.fp-header-theme>.fp-theme-checkbox-label>.sun {
+    color: orange;
+    position: absolute;
+    left: 3px;
+    top: 6px;
+}
+
+.fp-header>.fp-header-theme>.fp-theme-checkbox-label>.moon {
+    color: yellow;
+    position: absolute;
+    right: 3px;
+    top: 6px;
+}
+
+.fp-header>.fp-header-theme>.fp-theme-checkbox-label>.fp-theme-indicator {
+    position: absolute;
+    left: 4px;
+    top: 2.5px;
+    width: 1.8rem;
+    height: 1.8rem;
+    border-radius: 0.9rem;
+    background-color: white;
+    transition: transform 0.2s linear;
+}
+
+.fp-header>.fp-header-theme>.fp-checkbox:checked+.fp-theme-checkbox-label .fp-theme-indicator {
+    transform: translateX(35px);
+}
+
+/*-----------------------------
+        Main Middle Box
+------------------------------*/
+
+.login-portal.layout .center-segment>.ui.container {
+    margin: 0 0;
+}
+
+.center-segment>.ui.segment.fp-container {
+    display: flex;
+    border-radius: 8px;
+    max-height: 690px;
+    background: var(--asg-login-box-background-color);
+    border-color: var(--asg-login-box-border-color);
+}
+
+.center-segment>.ui.segment.fp-container>.fp-info-container {
+    width: 450px;
+    align-self: center;
+}
+
+.center-segment>.ui.segment.fp-container>.fp-info-container>.fp-info-content {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.center-segment>.ui.segment.fp-container>.fp-info-container>.fp-info-content>p {
+    font-size: 1.5rem;
+}
+
+.center-segment>.ui.segment.fp-container>.fp-info-container>.fp-info-content .fp-service-item {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+}
+
+.center-segment>.ui.segment.fp-container>.fp-info-container>.fp-info-content .fp-service-item i {
+    margin-right: 20px;
+    color: var(--asg-primary-color);
+}
+
+.center-segment>.ui.segment.fp-container>.fp-info-container>.fp-info-illustration>img {
+    width: 100%;
+}
+
+.center-segment>.ui.segment.fp-container>.fp-divider {
+    height: inherit;
+    border-left: 1px solid var(--fp-divider-color);
+    margin-left: 2rem;
+}
+
+.center-segment>.ui.segment.fp-container>.fp-content-container {
+    width: 550px;
+    height: inherit;
+    overflow-y: auto;
+}
+
+.center-segment>.ui.segment.fp-container>.fp-content-container .ui.segment {
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+    background: transparent;
+}
+
+.social-login>.field>button>img {
+    display: block;
+    flex: unset;
+    margin-right: 15px !important;
+}
+
+.social-login>.field>button>span {
+    display: block;
+    flex: unset;
+}
+
+.login-portal.layout .center-segment>.ui.container>.ui.segment .social-login .ui.button .ui.image {
+    margin-right: 0;
+}
+
+@media only screen and (max-width: 1100px) {
+    .center-segment>.ui.segment.fp-container>.fp-info-container {
+        display: none;
+    }
+
+    .center-segment>.ui.segment.fp-container>.fp-divider {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .center-segment>.ui.segment.fp-container>.fp-content-container {
+        width: auto;
+    }
+
+    .center-segment>.ui.segment.fp-container {
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+
+    .login-portal.layout .center-segment>.ui.container>.ui.segment {
+        padding: 1.5rem 0.5rem;
+    }
+}
+
+/*-----------------------------
+        Erro Box
+------------------------------*/
+
+.ui.warning.message {
+    background-color: var(--fp-warning-background-color) !important;
+    color: var(--asg-primary-text-color) !important;
+}
+
+.login-portal.layout .tracking-reference-container .tracking-reference-title {
+    color: var(--asg-primary-text-color) !important;
+}
+
+.login-portal.layout .tracking-reference-container .copy-input.tracking-reference input {
+    border-color: var(--asg-input-field-base-border-color);
+    background-color: var(--asg-input-field-base-background-color);
+    color: var(--asg-input-field-base-text-color);
+}
+
+.login-portal.layout .tracking-reference-container .copy-input.tracking-reference .copy-input-action.button {
+    background-color: var(--fp-copy-btn-background-color);
+}
+
+.login-portal.layout .tracking-reference-container .copy-input.tracking-reference .copy-input-action.button > i {
+    color: var(--fp-copy-btn-text-color);
+}
+
+/*-----------------------------
+            Footer
+------------------------------*/
+
+.login-portal.layout .footer {
+    margin-top: 30px;
+}

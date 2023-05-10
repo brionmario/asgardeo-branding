@@ -1,0 +1,98 @@
+<!--
+~ Copyright (c) 2022, WSO2 Inc. (http://www.wso2.com). All Rights Reserved.
+~
+~ This software is the property of WSO2 Inc. and its suppliers, if any.
+~ Dissemination of any information or reproduction of any material contained
+~ herein in any form is strictly forbidden, unless permitted by WSO2 expressly.
+~ You may not alter or remove any copyright or other notice from copies of this content."
+-->
+{{#isErrorResponse}}
+    <script src="{{BASE_URL}}/redirect.js"></script>
+{{/isErrorResponse}}
+{{^isResponsePage}}
+<div class="page-wrapper">
+    <header class="fp-header">
+        <div class="fp-header-logo">
+            {{{ProductHeader}}}
+            <p class="fp-header-logo-text">Food Paradise</p>
+        </div>
+        <div class="fp-header-theme">
+            <input type="checkbox" class="fp-checkbox" id="fp-checkbox">
+            <label for="fp-checkbox" class="fp-theme-checkbox-label">
+                <i class="moon icon"></i>
+                <i class="sun icon"></i>
+                <div class="fp-theme-indicator"></div>
+            </label>
+        </div>
+    </header>
+    <main class="center-segment">
+        <div class="ui segment fp-container">
+            <div class="fp-info-container">
+                <div class="fp-info-illustration">
+                    <img src="{{BASE_URL}}/assets/illustration.svg" alt="Auth Page Illustration Image">
+                </div>
+                <div class="fp-info-content">
+                    <p>Access Our All Service With This Account</p>
+                    <div class="fp-services">
+                        <div class="fp-service-item">
+                            <i class="utensils icon"></i>
+                            <p>Create new orders</p>
+                        </div>
+                        <div class="fp-service-item">
+                            <i class="shipping fast icon"></i>
+                            <p>Get delivery to doorstep</p>
+                        </div>
+                        <div class="fp-service-item">
+                            <i class="credit card icon"></i>
+                            <p>Online payment facility</p>
+                        </div>
+                        <div class="fp-service-item">
+                            <i class="money bill alternate outline icon"></i>
+                            <p>Cash on delivery</p>
+                        </div>
+                        <div class="fp-service-item">
+                            <i class="map marker alternate icon"></i>
+                            <p>Track your order</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="fp-divider"></div>
+            <div class="fp-content-container">
+                <div class="center-segment">
+                    <div class="ui container">
+                        {{{MainSection}}}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</div>
+{{{ProductFooter}}}
+{{/isResponsePage}}
+{{#isResponsePage}}
+<div class="page-wrapper {{#isSuperTenant}}default{{/isSuperTenant}} {{#isErrorResponse}}error-page{{/isErrorResponse}} {{#isSuccessResponse}}success-page{{/isSuccessResponse}}">
+    <header class="fp-header">
+        <div class="fp-header-logo">
+            {{{ProductHeader}}}
+            <p class="fp-header-logo-text">Food Paradise</p>
+        </div>
+        <div class="fp-header-theme">
+            <input type="checkbox" class="fp-checkbox" id="fp-checkbox">
+            <label for="fp-checkbox" class="fp-theme-checkbox-label">
+                <i class="moon icon"></i>
+                <i class="sun icon"></i>
+                <div class="fp-theme-indicator"></div>
+            </label>
+        </div>
+    </header>
+    <main class="center-segment">
+        <div class="ui container medium center aligned middle aligned">
+            {{{MainSection}}}
+        </div>
+    </main>
+    {{{ProductFooter}}}
+</div>
+{{/isResponsePage}}
+
+<script src="{{BASE_URL}}/script.js"></script>
