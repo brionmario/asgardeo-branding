@@ -4,14 +4,6 @@
 /*                                              */
 /************************************************/
 
-/*-----------------------------
-           Background
-------------------------------*/
-
-.login-portal.layout {
-    background: linear-gradient(180deg, #1f2028, #18181d);
-}
-
 /* Only add the background image in higher resolution displays. */
 @media only screen and (min-width: 480px) {
     .login-portal.layout .page-wrapper {
