@@ -1,0 +1,62 @@
+/************************************************/
+/*                                              */
+/*    GoodWill Pet Hospital Theme Overrides     */
+/*                                              */
+/************************************************/
+
+/*-----------------------------
+           Background
+------------------------------*/
+
+.login-portal.layout {
+    background: linear-gradient(180deg, #1f2028, #18181d);
+}
+
+/* Only add the background image in higher resolution displays. */
+@media only screen and (min-width: 480px) {
+    .login-portal.layout .page-wrapper {
+        background: url(https://cdn.statically.io/gh/brionmario/asgardeo-branding/restructure/organizations/coalasports/images/login-background-overlay.png);
+        background-repeat: no-repeat;
+        background-size: 600px;
+        background-position-x: left;
+        background-position-y: bottom;
+    }
+}
+
+/*-----------------------------
+          Login Box
+------------------------------*/
+
+.login-portal.layout .center-segment>.ui.container>.ui.segment {
+    box-shadow: rgb(0 0 0 / 2%) 2.76726px 2.76726px 2.21381px 0px, rgb(0 0 0 / 3%) 6.6501px 6.6501px 5.32008px 0px, rgb(0 0 0 / 4%) 12.5216px 12.5216px 10.0172px 0px, rgb(0 0 0 / 4%) 22.3363px 22.3363px 17.869px 0px, rgb(0 0 0 / 5%) 41.7776px 41.7776px 33.4221px 0px, rgb(0 0 0 / 7%) 100px 100px 80px 0px;
+}
+
+/*-----------------------------
+            Logo
+------------------------------*/
+
+.login-portal.layout .center-segment .product-logo {
+    display: none;
+}
+
+/*-----------------------------
+          Header
+------------------------------*/
+
+.login-portal.layout .page-wrapper.layout-file .center-segment>.ui.container>.ui.segment .ui.header:first-child {
+    position: absolute;
+    top: -55px;
+    right: 165px;
+}
+
+/*-----------------------------
+        Primary Button
+------------------------------*/
+
+.ui.primary.button {
+    background: linear-gradient(91deg, var(--asg-primary-color), #70a7cf);
+}
+
+.ui.primary.button:hover, .ui.primary.button:focus, .ui.primary.button:active {
+    background: linear-gradient(91deg, var(--asg-primary-color), #70a7cf);
+}
