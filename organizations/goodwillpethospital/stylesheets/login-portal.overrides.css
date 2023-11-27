@@ -17,9 +17,7 @@
     .login-portal.layout .page-wrapper {
         background: url(https://cdn.statically.io/gh/brionmario/asgardeo-branding/3a34d84172bb4b269ab1efc4e3fc9f925859d25b/organizations/goodwillpethospital/images/login-background-overlay.jpg);
         background-repeat: no-repeat;
-        background-size: 600px;
-        background-position-x: left;
-        background-position-y: bottom;
+        background-size: cover;
     }
 }
 
@@ -35,28 +33,6 @@
             Logo
 ------------------------------*/
 
-.login-portal.layout .center-segment .product-logo {
+/* .login-portal.layout .center-segment .product-logo {
     display: none;
-}
-
-/*-----------------------------
-          Header
-------------------------------*/
-
-.login-portal.layout .page-wrapper.layout-file .center-segment>.ui.container>.ui.segment .ui.header:first-child {
-    position: absolute;
-    top: -55px;
-    right: 165px;
-}
-
-/*-----------------------------
-        Primary Button
-------------------------------*/
-
-.ui.primary.button {
-    background: linear-gradient(91deg, var(--asg-primary-color), #70a7cf);
-}
-
-.ui.primary.button:hover, .ui.primary.button:focus, .ui.primary.button:active {
-    background: linear-gradient(91deg, var(--asg-primary-color), #70a7cf);
-}
+} */
