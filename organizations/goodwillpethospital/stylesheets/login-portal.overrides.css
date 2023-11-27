@@ -15,7 +15,7 @@
 /* Only add the background image in higher resolution displays. */
 @media only screen and (min-width: 480px) {
     .login-portal.layout .page-wrapper {
-        background: url(https://cdn.statically.io/gh/brionmario/asgardeo-branding/restructure/organizations/coalasports/images/login-background-overlay.png);
+        background: url(https://cdn.statically.io/gh/brionmario/asgardeo-branding/3a34d84172bb4b269ab1efc4e3fc9f925859d25b/organizations/goodwillpethospital/images/login-background-overlay.jpg);
         background-repeat: no-repeat;
         background-size: 600px;
         background-position-x: left;
