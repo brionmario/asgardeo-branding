@@ -7,7 +7,7 @@
     .login-portal.layout .page-wrapper {
         background: url(https://cdn.statically.io/gh/brionmario/asgardeo-branding/9c2d4e28f742d69e081ada74017cea1650841c5f/organizations/umbrella/images/grunge-texture.png);
         background-repeat: no-repeat;
-        background-size: 600px;
+        background-size: cover;
         background-position-x: left;
         background-position-y: bottom;
     }
