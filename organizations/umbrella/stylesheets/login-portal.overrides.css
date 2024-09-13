@@ -1,0 +1,14 @@
+/*-----------------------------
+           Background
+------------------------------*/
+
+/* Only add the background image in higher resolution displays. */
+@media only screen and (min-width: 480px) {
+    .login-portal.layout .page-wrapper {
+        background: url(https://cdn.statically.io/gh/brionmario/asgardeo-branding/restructure/organizations/umbrella/images/grunge-texture.png);
+        background-repeat: no-repeat;
+        background-size: 600px;
+        background-position-x: left;
+        background-position-y: bottom;
+    }
+}
